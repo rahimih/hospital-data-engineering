@@ -1,0 +1,8 @@
+IF DB_ID(N'HospitalDW') IS NULL
+BEGIN
+    CREATE DATABASE HospitalDW;
+END;
+GO
+
+USE HospitalDW;
+GO
