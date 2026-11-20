@@ -221,3 +221,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Real data and database backups
+data/*
+!data/sample/
+!data/sample/**
+*.bak
+*.bacpac
+*.mdf
+*.ldf
+
+# Local Spark files
+spark-warehouse/
+metastore_db/
+*.crc
+
+# Local settings
+.vscode/
+.ipynb_checkpoints/
+
