@@ -222,13 +222,12 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# ==================================
+# Hospital Data Engineering Project
+# ==================================
 
 # Python
-__pycache__/
 *.py[cod]
-.venv/
-venv/
-.pytest_cache/
 
 # Environment variables and credentials
 .env
@@ -251,7 +250,6 @@ spark-warehouse/
 metastore_db/
 *.crc
 
-# Local settings
+# VS Code local configuration
 .vscode/
-.ipynb_checkpoints/
 
